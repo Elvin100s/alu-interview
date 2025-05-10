@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 """
 Module for minOperations method.
+Calculates fewest operations to get n 'H' characters using copy and paste.
 """
 
 
 def minOperations(n):
     """
-    Calculates the fewest number of operations needed to result in exactly n H characters.
+    Calculates the fewest number of operations needed to result
+    in exactly n H characters.
     Returns 0 if n is impossible to achieve.
     """
     if n < 2:
